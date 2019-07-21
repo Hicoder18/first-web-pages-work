@@ -1,0 +1,134 @@
+@charset "UTF-8"
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #222427;
+}
+
+.header {
+	float: left;
+	width: 100%;
+	background-color: #222427;
+}
+
+.logo {
+	float: left;
+	margin-left: 100px;
+}
+
+.nav {
+	float: right;
+	margin-right: 100px;
+	margin-top: 15px;
+}
+
+.main {
+	float: left;
+	width: 100%;
+	background-color: #191b1d;
+}
+
+.left {
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.right {
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-image: url(../images/right.jpg);
+}
+
+.txt {
+	float: left;
+	padding: 10px;
+	color: white;
+}
+
+#about-us {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 5px;
+	color: white;
+}
+
+#contact-us {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 5px;
+	color: white;
+}
+
+#update-log {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 5px;
+	color: white;
+}
+
+#p-copyright {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 5px;
+	color: white;
+}
+
+#include-us {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 5px;
+	color: white;
+}
+
+div.main-ul h3 {height: 30px;line-height: 30px;background-color: #c2bfbd;}
+div.main-ul ul li {list-style-type: circle black;line-height: 1.625em;}
+
+.footer {
+	float: left;
+	width: 100%;
+	color: white;
+	font-size: 0.825em;
+	background-color: #222427;
+}
+
+.f-copy {
+	float: left;
+	margin-left: 100px;
+}
+
+.f-search {
+	float: right;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 100px;
+}
+
+#menu-checkbox,
+#menu-toggle {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1022px) {
+    .nav {
+    	float: left;
+		width: 100%;
+		margin-top: 15px;
+		margin-left: 100px;
+	}
+}
