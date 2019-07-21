@@ -13,6 +13,7 @@ body {
 	float: left;
 	width: 100%;
 	background-color: #222427;
+	/* position: fixed; */
 }
 
 .logo {
@@ -27,27 +28,32 @@ body {
 }
 
 .main {
-	float: left;
 	width: 100%;
 	background-color: #191b1d;
+	padding-top: 130px;
+	padding-bottom: 10px;
 }
 
 .left {
-	float: left;
-	margin-left: 100px;
-	margin-right: 100px;
+    text-align: center;
+    /* vertical-align: middle; */
+	/* width: 100%; */
+	/* margin: 0,auto; */
+	margin-bottom: 10px;
 }
 
 .right {
 	float: left;
-	margin-left: 100px;
-	margin-right: 100px;
+	width: 100%;
 	background-image: url(../images/right.jpg);
 }
 
 .txt {
 	float: left;
-	padding: 10px;
+	/* padding: 10px;	 */
+	margin-top: 10px;
+	margin-left: 100px;
+	/* text-align: center; */
 	color: white;
 }
 
